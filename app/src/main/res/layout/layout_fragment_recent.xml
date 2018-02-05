@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eaeaea"
+    android:orientation="vertical"
+    tools:context="ctz.com.timetable.recent">
+
+    <ListView android:id="@+id/list2"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:dividerHeight="0dp"
+        />
+
+    <TextView
+        android:id="@+id/mse_empty"
+        android:background="#FFF"
+        android:layout_margin="0dp"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:text="No content!"
+        android:textSize="18sp"
+        android:textColor="#747474"
+        android:gravity="center"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

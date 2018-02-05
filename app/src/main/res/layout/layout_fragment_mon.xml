@@ -1,0 +1,414 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/parent"
+    android:scrollbars="vertical"
+    android:background="#eaeaeaea"
+    android:orientation="vertical"
+    android:paddingLeft="8dp"
+    android:fillViewport="true"
+    android:paddingRight="8dp"
+    >
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="1.6"
+              android:weightSum="10"
+              android:layout_marginTop="4dp"
+              android:background="@drawable/rounded_rect_for_fragment"
+              android:orientation="horizontal">
+
+              <LinearLayout
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1.7"
+                  android:weightSum="10"
+                  android:orientation="vertical">
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="6"
+                      android:text="8"
+                      android:textSize="30sp"
+                      android:textColor="#FFF"
+                      android:gravity="center_vertical|center_horizontal|bottom"/>
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="3"
+                      android:text="AM"
+                      android:textSize="14sp"
+                      android:textColor="#FFF"
+                      android:gravity="center"/>
+
+              </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="1dp"
+                  android:layout_height="match_parent"
+                  android:background="#FFF"
+                  android:layout_marginTop="8dp"
+                  android:layout_marginBottom="8dp"
+                  tools:ignore="Suspicious0dp" />
+
+              <LinearLayout
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="8"
+                  android:padding="4dp"
+                  android:gravity="center"
+                  android:weightSum="10"
+                  android:orientation="vertical">
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="4"
+                      android:textColor="#FFF"
+                      android:gravity="center"
+                      android:textSize="22sp"
+                      android:layout_gravity="center"
+                      android:text="MOS | BI | IGIS | PSOSN"/>
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="4"
+                      android:textColor="#FFF"
+                      android:gravity="center"
+                      android:textSize="16sp"
+                      android:layout_gravity="center"
+                      android:text="CT-301 | LAB-6 | LAB-1 | LAB-4"/>
+
+              </LinearLayout>
+          </LinearLayout>
+
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="1.6"
+              android:weightSum="10"
+              android:background="@drawable/rounded_rect_for_fragment"
+              android:orientation="horizontal">
+
+              <LinearLayout
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1.7"
+                  android:weightSum="10"
+                  android:orientation="vertical">
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="6"
+                      android:text="10"
+                      android:textSize="30sp"
+                      android:textColor="#FFF"
+                      android:gravity="center_vertical|center_horizontal|bottom"/>
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="3"
+                      android:text="AM"
+                      android:textSize="14sp"
+                      android:textColor="#FFF"
+                      android:gravity="center"/>
+
+              </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="1dp"
+                  android:layout_height="match_parent"
+                  android:background="#FFF"
+                  android:layout_marginTop="8dp"
+                  android:layout_marginBottom="8dp"
+                  tools:ignore="Suspicious0dp" />
+              <LinearLayout
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="8"
+                  android:padding="4dp"
+                  android:gravity="center"
+                  android:weightSum="10"
+                  android:orientation="vertical">
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="4"
+                      android:textColor="#FFF"
+                      android:gravity="center"
+                      android:textSize="22sp"
+                      android:layout_gravity="center"
+                      android:text="Open Elective"/>
+
+              </LinearLayout>
+          </LinearLayout>
+
+
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="1.2"
+              android:weightSum="10"
+              android:background="@drawable/rounded_rect_for_fragment"
+              android:orientation="horizontal">
+
+
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:layout_weight="4"
+                      android:textColor="#FFF"
+                      android:gravity="center"
+                      android:textSize="22sp"
+                      android:layout_gravity="center"
+                      android:text="RECESS"/>
+
+          </LinearLayout>
+
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="1.6"
+              android:weightSum="10"
+              android:background="@drawable/rounded_rect_for_fragment"
+              android:orientation="horizontal">
+
+              <LinearLayout
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1.7"
+                  android:weightSum="10"
+                  android:orientation="vertical">
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="6"
+                      android:text="12"
+                      android:textSize="30sp"
+                      android:textColor="#FFF"
+                      android:gravity="center_vertical|center_horizontal|bottom"/>
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="3"
+                      android:text="PM"
+                      android:textSize="14sp"
+                      android:textColor="#FFF"
+                      android:gravity="center"/>
+
+              </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="1dp"
+                  android:layout_height="match_parent"
+                  android:background="#FFF"
+                  android:layout_marginTop="8dp"
+                  android:layout_marginBottom="8dp"
+                  tools:ignore="Suspicious0dp" />
+
+              <LinearLayout
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="8"
+                  android:padding="4dp"
+                  android:gravity="center"
+                  android:weightSum="10"
+                  android:orientation="vertical">
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="4"
+                      android:textColor="#FFF"
+                      android:gravity="center"
+                      android:textSize="22sp"
+                      android:layout_gravity="center"
+                      android:text="Language Processor"/>
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="4"
+                      android:textColor="#FFF"
+                      android:gravity="center"
+                      android:textSize="16sp"
+                      android:layout_gravity="center"
+                      android:text="R N Verma\t\t\t\t CT-306"/>
+
+              </LinearLayout>
+          </LinearLayout>
+
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="1.6"
+              android:weightSum="10"
+              android:background="@drawable/rounded_rect_for_fragment"
+              android:orientation="horizontal">
+
+              <LinearLayout
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1.7"
+                  android:weightSum="10"
+                  android:orientation="vertical">
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="6"
+                      android:text="1"
+                      android:textSize="30sp"
+                      android:textColor="#FFF"
+                      android:gravity="center_vertical|center_horizontal|bottom"/>
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="3"
+                      android:text="PM"
+                      android:textSize="14sp"
+                      android:textColor="#FFF"
+                      android:gravity="center"/>
+
+              </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="1dp"
+                  android:layout_height="match_parent"
+                  android:background="#FFF"
+                  android:layout_marginTop="8dp"
+                  android:layout_marginBottom="8dp"
+                  tools:ignore="Suspicious0dp" />
+
+              <LinearLayout
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="8"
+                  android:padding="4dp"
+                  android:gravity="center"
+                  android:weightSum="10"
+                  android:orientation="vertical">
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="4"
+                      android:textColor="#FFF"
+                      android:gravity="center"
+                      android:textSize="22sp"
+                      android:layout_gravity="center"
+                      android:text="D A A"/>
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="4"
+                      android:textColor="#FFF"
+                      android:gravity="center"
+                      android:textSize="16sp"
+                      android:layout_gravity="center"
+                      android:text="R D Wajgi\t\t\t\t CT-306"/>
+
+              </LinearLayout>
+
+
+
+          </LinearLayout>
+
+
+
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="1.6"
+              android:weightSum="10"
+              android:background="@drawable/rounded_rect_for_fragment"
+              android:orientation="horizontal">
+
+              <LinearLayout
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1.7"
+                  android:weightSum="10"
+                  android:orientation="vertical">
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="6"
+                      android:text="2"
+                      android:textSize="30sp"
+                      android:textColor="#FFF"
+                      android:gravity="center_vertical|center_horizontal|bottom"/>
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="3"
+                      android:text="PM"
+                      android:textSize="14sp"
+                      android:textColor="#FFF"
+                      android:gravity="center"/>
+
+              </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="1dp"
+                  android:layout_height="match_parent"
+                  android:background="#FFF"
+                  android:layout_marginTop="8dp"
+                  android:layout_marginBottom="8dp"
+                  tools:ignore="Suspicious0dp" />
+
+              <LinearLayout
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="8"
+                  android:padding="4dp"
+                  android:gravity="center"
+                  android:weightSum="10"
+                  android:orientation="vertical">
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="4"
+                      android:textColor="#FFF"
+                      android:gravity="center"
+                      android:textSize="22sp"
+                      android:layout_gravity="center"
+                      android:text="F O M"/>
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="4"
+                      android:textColor="#FFF"
+                      android:gravity="center"
+                      android:textSize="16sp"
+                      android:layout_gravity="center"
+                      android:text="A K Mehta\t\t\t\t CT-306"/>
+
+              </LinearLayout>
+          </LinearLayout>
+
+      </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+</android.support.v4.widget.NestedScrollView>
+
+
